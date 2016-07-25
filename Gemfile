@@ -47,7 +47,7 @@ end
 
 group :production do
   #install postgres only on production enviroment aka heroku
-  gem "postgresql"
+  gem "pg"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
